@@ -1,0 +1,117 @@
+#title{
+  background: #ff4c68;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 10px;
+}
+h3{
+  font-size: 1.5rem;
+}
+h2{
+  color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+.fluid-container{
+  padding: 5% 15%;/*a padding for the container fluid the container takes 100% of width*/
+
+}
+.rotate
+{margin-top: 30px;
+  transform: rotate(25deg);/* to rotate the image */
+  position: relative;
+  top:120px;
+  width: 60%;
+  right: -70px;
+}
+@media (max-width:1028px) {/*this say if the width is less than 1028 do this action*/
+  .rotate{
+      transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+.navv{
+color: black;
+font-size: 40px;
+
+}
+
+.icon{
+  color: #ef8172;
+  font-size: 60px;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+/*features sec*/
+#features{
+  padding: 5% 15%;
+  text-align: center;
+  position: relative;
+  background: white;
+  z-index: 1;
+}
+
+/*tesstenonial sec*/
+
+#testimonials{
+
+text-align: center;
+background: #ff4c68;
+}
+
+
+
+.dog-image{
+width: 10%;
+border-radius:50%;
+
+}
+em{
+  color: white;
+}
+.carousel-item{/*to move the next and previous away*/
+
+  padding: 20px
+}
+
+/*press sec*/
+#press{
+background: #ff4c68;
+text-align: center;
+padding: 10px
+}
+.press-logo{
+  width: 15%;
+  margin: 0 10px;
+}
+/*price*/
+.move{
+padding: 2% 3%
+}
+#pricing{
+  text-align: center;
+  padding: 3% 15%;
+}
+/*cta sec*/
+#cta{
+  background:#ff4c68;
+  text-align: center;
+}
+
+#footer{
+  text-align: center;
+}
+#footer i{
+  margin: 5px;
+}
